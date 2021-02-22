@@ -1,0 +1,11 @@
+<body>
+    <div class="uk-container uk-position-center">
+        <div *ngFor="let mensagem of mensagens$ | async">
+            <div class="uk-card uk-card-default uk-width-1-1@m uk-card-body ">
+                <h3 class="uk-card-title">{{mensagem.friend}}</h3>
+                <p>{{mensagem.mention}}</p>
+            </div>
+        </div>
+    </div>
+    <div></div>
+</body>

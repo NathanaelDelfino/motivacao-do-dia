@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Mensagem } from './Models/mensagem.models';
+import { MensagemService } from './Services/mensagem.service';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +11,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'motivacao-do-dia';
+
 }
